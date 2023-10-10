@@ -49,8 +49,8 @@ function showData(){
         html += "<td>"+ element.email +"</td>"
         html += "<td>"+ element.phone +"</td>"
         html += '<td><button onclick="updateData('+
-        index+')" class="btn btn-warning" id="modifier">Modifier</button> <button onclick="deleteData('+
-        index+')" class="btn btn-danger" >Delete </button></td>';
+        index+')" class="btn btn-warning" id="modifier"><i class="fa-solid fa-pencil"></i></button> <button onclick="deleteData('+
+        index+')" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>';
         html += "</tr>"
     });
 
